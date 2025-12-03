@@ -12,16 +12,17 @@ These are the core craft places so feel free to focus on those drop locations sh
 
 We will start off from Morningside and make our way up towards CBD. Here is the plan for the day:
 Due to the mapping of the dinner locations, we will have a slower pacing for the first few pubs just to give some time for others to catch up to us should they be late!
-The Beer Spot: 1:00 pm - 3:00 pm
-The Tapping Room: 3:00 pm - 4:00 pm
-Urbanaut: 4:00 pm - 5:00 pm
-Portland Public House (dinner): 5:00 - 6:20 pm
-We speed up here
-St Leonards: 6:20 pm - 7:10 pm
-Garage Project: 7:10 pm - 8:00 pm
-Churly's: 8:00 pm - 8:50 pm
-Galbraith's: 8:50 pm - 9:40 pm
-Schapiro's (Breather): 9:40 pm ---
+ - The Beer Spot: 1:00 pm - 3:00 pm
+ - The Tapping Room: 3:00 pm - 4:00 pm
+ - Urbanaut: 4:00 pm - 5:00 pm
+ - Portland Public House (dinner): 5:00 - 6:20 pm
+ - We speed up here
+ - St Leonards: 6:20 pm - 7:10 pm
+ - Garage Project: 7:10 pm - 8:00 pm
+ - Churly's: 8:00 pm - 8:50 pm
+ - Galbraith's: 8:50 pm - 9:40 pm
+ - Schapiro's (Breather): 9:40 pm ---
+ - 
 After this, if we have the energy we will slowly walk into town and drop by some pubs. If we can get to caretakers (and they let us in) then we win!
 
 For the massive buzzkill, I do need to lay out the ground rules for this event.
