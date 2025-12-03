@@ -22,7 +22,7 @@ Due to the mapping of the dinner locations, we will have a slower pacing for the
  - Churly's: 8:00 pm - 8:50 pm
  - Galbraith's: 8:50 pm - 9:40 pm
  - Schapiro's (Breather): 9:40 pm ---
- - 
+   
 After this, if we have the energy we will slowly walk into town and drop by some pubs. If we can get to caretakers (and they let us in) then we win!
 
 For the massive buzzkill, I do need to lay out the ground rules for this event.
