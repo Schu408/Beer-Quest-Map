@@ -39,21 +39,69 @@
 
     // Brewery markers (pixel coordinates)
     const breweries = [
-      { name: "The Beer Spot", coords: [184, 200], url: "https://www.thebeerspot.co.nz/" },
-      { name: "The Tapping Room", coords: [110, 220], url: "https://www.batsmenbrewing.cool/"},
-      { name: "Urbanaut Brewery", coords: [227, 212], url: "https://www.urbanautbeer.com/"},
-      { name: "The Portland Public House", coords: [291, 445], url: "http://www.theportlandpublichouse.co.nz/" },
-      { name: "Saint Leonards Brewing", coords: [294, 554], url: "https://saintleonards.co.nz/" },
-      { name: "Garage Project", coords: [393, 597], url: "https://garageproject.co.nz/pages/kingsland-cellar-door" },
-      { name: "Churly's Brewpub & Eatery", coords: [332, 700], url: "https://churlys.co.nz/"},
-      { name: "Brothers Beer & Juke Joint", coords: [419, 905], url: "http://www.jukejoint.co.nz/"},
-      { name: "Galbraith's Alehouse", coords: [538, 983], url: "http://www.alehouse.co.nz/"},
-      { name: "Schapiro's Sports Bar", coords: [582, 986], url: "http://schapirossportsbar.co.nz/"}
+      { name: "The Beer Spot",
+      coords: [184, 200],
+      url: "https://www.thebeerspot.co.nz/",
+      img: "The Beer Spot.png"
+      },
+      { name: "The Tapping Room",
+      coords: [110, 220],
+      url: "https://www.batsmenbrewing.cool/",
+      img: "The Tapping Room.png"
+      },
+      { name: "Urbanaut Brewery", 
+      coords: [227, 212],
+      url: "https://www.urbanautbeer.com/",
+      img: "Urbanaut.png"
+      },
+      { name: "The Portland Public House",
+      coords: [291, 445],
+      url: "http://www.theportlandpublichouse.co.nz/",
+      img: "Portland Public House.png"
+      },
+      { name: "Saint Leonards Brewing",
+      coords: [294, 554],
+      url: "https://saintleonards.co.nz/",
+      img: "Saint Leonards.png"
+      },
+      { name: "Garage Project",
+      coords: [393, 597],
+      url: "https://garageproject.co.nz/pages/kingsland-cellar-door",
+      img: "Garage Project.png"
+      },
+      { name: "Churly's Brewpub & Eatery",
+      coords: [332, 700],
+      url: "https://churlys.co.nz/",
+      img: "Churly's.png"
+      },
+      { name: "Brothers Beer & Juke Joint",
+      coords: [419, 905],
+      url: "http://www.jukejoint.co.nz/",
+      img: "Brothers Brewery.png"
+      },
+      { name: "Galbraith's Alehouse",
+      coords: [538, 983],
+      url: "http://www.alehouse.co.nz/",
+      img: "Galbraith's.png"
+      },
+      { name: "Schapiro's Sports Bar",
+      coords: [582, 986],
+      url: "http://schapirossportsbar.co.nz/",
+      img: "Schapiro's.png"
+      }
     ];
     breweries.forEach(b => {
       L.marker(b.coords).addTo(map)
         .bindPopup(
           `<b>${b.name}</b><br>
+          <a href="${b.url}" target="_blank">Learn more</a>`
+        );
+    });
+    breweries.forEach(b => {
+      L.marker(b.coords).addTo(map)
+        .bindPopup(
+          `<b>${b.name}</b><br>
+          <img src="${b.img}" alt="${b.name}" style="width:150px;height:auto;margin-top:5px;"><br>
           <a href="${b.url}" target="_blank">Learn more</a>`
         );
     });
