@@ -25,19 +25,19 @@
   <div id="map"></div>
 
   <script>
-    // Create map with simple CRS (pixel coordinates)
+    // Create map with simple CRS
     const map = L.map('map', {
       crs: L.CRS.Simple,
       minZoom: -1,
       maxZoom: 2
     });
 
-    // Image dimensions (replace with your actual image size)
+    // Image dimensions
     const bounds = [[0,0], [800,1200]]; // height, width
     L.imageOverlay('./zJM1y-Sa.jpg', bounds).addTo(map);
     map.fitBounds(bounds);
 
-    // Brewery markers (pixel coordinates)
+    // Brewery markers
     const breweries = [
       { name: "The Beer Spot",
       coords: [184, 200],
