@@ -25,8 +25,8 @@ Due to the mapping of the dinner locations, we will have a slower pacing for the
    
 After this, if we have the energy we will slowly walk into town and drop by some pubs. If we can get to caretakers (and they let us in) then we win!
 
-For the massive buzzkill, I do need to lay out the ground rules for this event.
-One drink or One paddle per brewery. (paddle adds up to 1 - 1.5 pints depending on how generous the servers are).
-If you are ever stopped from service then your drinking journey ends here! Feel free to walk along if you want.
-If you decide to get too comfortable and don't want to continue then that's fine! The main group will try to continue without you.
-Please do watch the road... We do need to cross it a few times.
+For the massive buzzkill, I do need to lay out the ground rules for this event:
+ - One drink or One paddle per brewery. (paddle adds up to 1 - 1.5 pints depending on how generous the servers are).
+ - If you are ever stopped from service then your drinking journey ends here! Feel free to walk along if you want.
+ - If you decide to get too comfortable and don't want to continue then that's fine! The main group will try to continue without you.
+ - Please do watch the road... We do need to cross it a few times.
