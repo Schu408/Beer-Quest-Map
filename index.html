@@ -90,14 +90,27 @@
       img: "Schapiro's.png"
       }
     ];
-    const beerIcon = L.icon({
-      iconUrl: 'Beer Mug.png',     // make sure this path matches your file location
-      iconSize: [40, 40],           // adjust size as needed
-      iconAnchor: [20, 40],         // aligns bottom center of icon to coordinates
-      popupAnchor: [0, -40]         // popup opens above the icon
-    });
-    breweries.forEach(b => {
-      L.marker(b.coords, { icon: beerIcon }).addTo(map)
+    breweries.forEach((b, index) => {
+      const n = index + 1;
+      // Use a smaller left offset for double-digit numbers
+      const leftOffset = n >= 10 ? 8 : 12;
+
+      const numberedIcon = L.divIcon({
+        html: `
+          <div style="position:relative; width:40px; height:40px;">
+            <img src="Beer Mug.png" style="width:40px; height:40px;">
+            <div style="position:absolute; top:8px; left:${leftOffset}px; 
+                        font-weight:bold; font-size:16px; 
+                        color:black; text-shadow:1px 1px black;">
+              ${n}
+            </div>
+          </div>
+        `,
+        iconSize: [40, 40],
+        className: ""
+      });
+
+      L.marker(b.coords, { icon: numberedIcon }).addTo(map)
         .bindPopup(
           `<b>${b.name}</b><br>
           <img src="${b.img}" alt="${b.name}" style="width:150px;height:auto;margin-top:5px;"><br>
