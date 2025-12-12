@@ -12,9 +12,9 @@ These are the core craft places so feel free to focus on those drop locations sh
 
 We will start off from Morningside and make our way up towards CBD. Here is the plan for the day:
 Due to the mapping of the dinner locations, we will have a slower pacing for the first few pubs just to give some time for others to catch up to us should they be late!
- - The Beer Spot: 1:00 pm - 3:00 pm
- - The Tapping Room: 3:00 pm - 4:00 pm
- - Urbanaut: 4:00 pm - 5:00 pm
+ - The Beer Spot: 1:00 pm - 2:30 pm
+ - The Tapping Room: 2:30 pm - 3:40 pm
+ - Urbanaut: 3:40 pm - 4:50 pm
  - Portland Public House (dinner): 5:00 - 6:20 pm
  - We speed up here
  - St Leonards: 6:20 pm - 7:10 pm
